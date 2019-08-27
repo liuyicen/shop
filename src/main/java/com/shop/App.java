@@ -12,7 +12,7 @@ import javax.annotation.Resource;
 
 /**
  * Hello world!
- *
+ * SpringBootApplication 与EnableAutoConfiguration 有异曲同工的地方，指定被spring托管 ，并且指定为启动类
  */
 @SpringBootApplication(scanBasePackages ={"com.shop"})
 @RestController
